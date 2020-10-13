@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(217, 255, 0);
+}
+img{
+    position: absolute;
+size: 100%;
+}
+.tronc {
+    width:50%;
+    position: fixed;
+    left:0;
+    top:0px;
+    z-index:1;
+  }
+  .feuilles {
+    width:50%;
+    position: fixed;
+    left:0;
+    top:0px;
+    z-index:1;
+  }
+  .oiseau {
+    width:50%;
+    position: fixed;
+    left:0;
+    top:0px;
+    z-index:1;
+    
+  }
+  .nature{
+    display: flex;
+    position: fixed;
+    font-size: 50px;
+    left: 27%;
+    top: 33%;
+  }
+  .quebec{
+    display: flex;
+    position: fixed;
+    font-size: 50px;
+    left: 27%;
+    top: 40%;
+  }
+
+  
+  
