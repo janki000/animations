@@ -5,7 +5,31 @@ yoyo:true
 
 .to('.f', {stagger: 0.2, opacity: 0, duration: 0.2, delay: '25%'})
 
-.to('.tronc', {opacity: 2, duration: 0.2, delay: '35%'})
+.to('.oiseau1', {
+  x: 550,
+  y: -280,
+ duration: 1, delay: '35%'})
+ .to('.oiseau2', {
+  x: 250,
+  y: -955,
+ duration: 1, delay: '35%'})
+ .to('.oiseau3', {
+  x: -550,
+  y: 255,
+ duration: 1, delay: '35%'})
+ .to('.oiseau4', {
+  x: -250,
+  y: 355,
+ duration: 1, delay: '35%'})
+ .to('.oiseau5', {
+  x: -650,
+  y: 155,
+ duration: 2, delay: '35%'})
+
+ .to('.tronc', {opacity: 0, duration: 0.2, delay: '35%'})
+
+
+
 
 gsap.registerPlugin(ScrollTrigger);
 
