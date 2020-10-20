@@ -124,7 +124,7 @@ const t2 = gsap.timeline({defaults: {ease: 'linear'},
 
   .to('.oiseau5', { 
     y: '2100px',
-    x: '2100px',
+    x: '2100px', 
     opacity: -5,
     delay: 0.5,
     stagger: 0.2,
@@ -142,6 +142,7 @@ const t2 = gsap.timeline({defaults: {ease: 'linear'},
 
 .to('.nature', { 
   y: '2100px',
+  fontSize: 500,
   rotation: 180,
   opacity: -5,
   scrollTrigger: {
@@ -154,6 +155,7 @@ const t2 = gsap.timeline({defaults: {ease: 'linear'},
 
 .to('.quebec', { 
   x: '2100px',
+  fontSize: 500,
   rotation: 180,
   opacity: -5,
   scrollTrigger: {
@@ -248,3 +250,4 @@ const t2 = gsap.timeline({defaults: {ease: 'linear'},
     end: 'bottom 90%',
   }
 })
+
