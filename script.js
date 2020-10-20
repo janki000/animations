@@ -18,7 +18,7 @@ yoyo:true
   y: 255,
  duration: 1, delay: '35%'})
  .to('.oiseau4', {
-  x: -250,
+  x: -350,
   y: 355,
  duration: 1, delay: '35%'})
  .to('.oiseau5', {
